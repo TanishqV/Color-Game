@@ -1,0 +1,58 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: rgb(0, 0, 0);
+	font-size: 150%;
+}
+h2{
+	background: dodgerblue;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+	text-transform: uppercase;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+#color{
+	font-size: 200%;
+}
+#msg{
+	display: inline-block;
+	width: 20%;
+}
+#stripe{
+	text-align: center;
+	background: white;
+}
+button{
+	border: none;
+	background: none;
+	color: dodgerblue;
+	height: 100%;
+	width: auto;
+	font-size: 100%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+button:hover{
+	transition: 0.6s;
+	background: dodgerblue;
+	color: white;
+	padding: 0px 10px 0px 10px;
+}
+.selected{
+	color: white;
+	background: dodgerblue;
+}
+#boxes{
+	max-width: 600px;
+	margin: 20px auto;
+}
+.sq{
+	border-radius: 20%;
+	background: yellow;
+	width: 30%;
+	float: left;
+	margin: 1%;
+	padding-bottom: 30%;
+	transition: background 0.6s;	/* Adjusts the size */
+}
